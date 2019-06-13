@@ -1,22 +1,22 @@
-# vue-fullcalendar-simple
+# vue-fullcalendar-sample
 [![npm version](https://badge.fury.io/js/vue-full-calendar.svg)](https://badge.fury.io/js/vue-full-calendar)
 [![Build Status](https://travis-ci.org/CroudSupport/vue-fullcalendar.svg?branch=master)](https://travis-ci.org/CroudSupport/vue-fullcalendar)
 
 
 ## Installation
 ```
-npm install --save vue-fullcalendar-simple
+npm install --save vue-fullcalendar-sample
 ```
 Or for Vue 1.x users
 ```
-npm install --save vue-fullcalendar-simple@0.0.3
+npm install --save vue-fullcalendar-sample@0.0.3
 ```
 
 Installing the plugin will globally add the `full-calendar` component to your project.
 
 ```js
 //main.js
-import FullCalendar from 'vue-full-calendar'
+import FullCalendar from 'vue-fullcalendar-sample'
 Vue.use(FullCalendar)
 ```
 
@@ -24,7 +24,7 @@ But you can also import the standalone component to add locally or for more comp
 
 ```js
 // foo.vue
-import { FullCalendar } from 'vue-full-calendar'
+import { FullCalendar } from 'vue-fullcalendar-sample'
 export default {
   components: {
     FullCalendar,
